@@ -1,0 +1,58 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+
+    background: rgb(36, 0, 28);
+    background: linear-gradient(95deg, rgba(36, 0, 28, 1) 8%, rgba(56, 9, 121, 1) 61%, rgba(201, 0, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.container-header {
+    margin-top: 30px;
+}
+
+.input-valute {
+
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+.input-valute:hover {
+    box-shadow: 0px 0px 20px 0px white;
+}
+
+
+
+
+.select-valute {
+    margin: 20px 130px 20px 130px;
+    
+    width: 125px;
+    height: 25px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 1px -1px 11px 0px white;
+    border-radius: 50px;
+    border: none;
+}
+
+.select-valute:hover {
+    box-shadow: 1px -1px 20px 4px white;
+}
