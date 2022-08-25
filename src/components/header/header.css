@@ -4,7 +4,6 @@ body {
 
 
 .container {
-
     background: rgb(36, 0, 28);
     background: linear-gradient(95deg, rgba(36, 0, 28, 1) 8%, rgba(56, 9, 121, 1) 61%, rgba(201, 0, 255, 1) 100%);
     display: flex;
@@ -20,8 +19,7 @@ body {
 }
 
 .input-valute {
-
-    font-family: inherit;
+    font-family:  "Signika", sans-serif;
     width: 100%;
     border: 0;
     border-bottom: 2px solid gray;
@@ -32,10 +30,12 @@ body {
     background: transparent;
     transition: border-color 0.2s;
     box-shadow: 0px 0px 0px 0px white;
+    margin-bottom: 20px;
 }
 
 .input-valute:hover {
     box-shadow: 0px 0px 20px 0px white;
+
 }
 
 
@@ -43,7 +43,7 @@ body {
 
 .select-valute {
     margin: 20px 130px 20px 130px;
-    
+    text-align: center;
     width: 125px;
     height: 25px;
     cursor: pointer;
@@ -51,8 +51,20 @@ body {
     box-shadow: 1px -1px 11px 0px white;
     border-radius: 50px;
     border: none;
+    font-family:  "Signika", sans-serif;
 }
 
 .select-valute:hover {
     box-shadow: 1px -1px 20px 4px white;
+}
+
+
+.result{
+    font-family:  "Signika", sans-serif;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
 }
