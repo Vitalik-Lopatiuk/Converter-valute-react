@@ -1,9 +1,8 @@
 const ConvertInput = () => {
-    const url = 'https://api.monobank.ua/bank/currency'
+    
 
 
-
-
+    
     const select_valute = document.querySelector('.select-valute')
     const inputValute = document.querySelector('.input-valute').value
     const result = document.querySelector('.result')
